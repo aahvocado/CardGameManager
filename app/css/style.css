@@ -1,0 +1,98 @@
+/*
+	Magic~
+*/
+.eten-main {
+  height: 100%;
+  background-color: #fff;
+}
+.eten-main .eten-navbar .navbar-header .eten-brand {
+  color: #426D85;
+  float: left;
+}
+.eten-main .eten-body .jumbotron {
+  background-color: green;
+  height: 100%;
+}
+.eten-main .eten-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.eten-main .eten-container .jumbo-info p {
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+}
+.eten-main footer {
+  text-align: center;
+  color: #aaa;
+}
+.eten-main footer a {
+  color: #888;
+}
+.eten-main footer a :hover {
+  color: #444;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:link {
+  text-decoration: none;
+}
+/*
+	Fonts
+*/
+p {
+  font-size: 16px;
+}
+h3 {
+  margin: 10px 0px;
+}
+h5,
+.h5 {
+  font-weight: 200;
+}
+/*
+
+*/
+.item-clickable {
+  cursor: pointer;
+}
+/*
+  Navbar
+*/
+.container-fluid > .navbar-header {
+  margin-right: 10%;
+}
+.navbar-toggle {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #426D85;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: #426D85;
+}
+/*
+ * Cover-style bootstrap Base structure
+ */
+.site-wrapper {
+  margin-top: 50px;
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+}
+/* It's a line */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
